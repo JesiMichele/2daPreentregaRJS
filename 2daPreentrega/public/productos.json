@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "RayBan",
+        "image": "/assets/img/RayBan.jpg",
+        "price": 125000,
+        "stock": 10,
+        "description": "Estilo clasico y actual",
+        "category": "Casual"
+    },
+    {
+        "id": 2,
+        "name": "Prada",
+        "image": "/assets/img/Prada.jpg",
+        "price": 68000,
+        "stock": 5,
+        "description": "Iconico",
+        "category": "Elegant"
+    },
+    {
+        "id": 3,
+        "name": "Polaroid",
+        "image": "/assets/img/Polaroid.jpg",
+        "price": 100000,
+        "stock": 7,
+        "description": "Comodidad unica",
+        "category": "Sports"
+    },
+    {
+        "id": 4,
+        "name": "Lacoste",
+        "image": "/assets/img/Lacoste.jpg",
+        "price": 45000,
+        "stock": 8,
+        "description": "Actitud y elegancia",
+        "category": "Sports"
+    }
+]
