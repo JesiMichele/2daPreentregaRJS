@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ComponenteHijo = ({children}) => {
+const ComponenteHijo = ({ children }) => {
   return (
     <div>
       {children}

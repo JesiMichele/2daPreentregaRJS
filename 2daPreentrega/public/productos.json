@@ -34,5 +34,41 @@
         "stock": 8,
         "description": "Actitud y elegancia",
         "category": "Sports"
+    },
+    {
+        "id": 3,
+        "name": "Polaroid",
+        "image": "/assets/img/Polaroid.jpg",
+        "price": 100000,
+        "stock": 7,
+        "description": "Comodidad unica",
+        "category": "Sports"
+    },
+    {
+        "id": 4,
+        "name": "Lacoste",
+        "image": "/assets/img/Lacoste.jpg",
+        "price": 45000,
+        "stock": 8,
+        "description": "Actitud y elegancia",
+        "category": "Sports"
+    },
+    {
+        "id": 5,
+        "name": "Vulk",
+        "image": "/assets/img/Polaroid.jpg",
+        "price": 120000,
+        "stock": 9,
+        "description": "Comodidad unica",
+        "category": "Sports"
+    },
+    {
+        "id": 6,
+        "name": "Gucci",
+        "image": "/assets/img/Lacoste.jpg",
+        "price": 45000,
+        "stock": 12,
+        "description": "Actitud y elegancia",
+        "category": "Elegant"
     }
 ]

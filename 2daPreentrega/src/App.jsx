@@ -5,7 +5,7 @@ import ItemListcontainer from './components/ItemListcontainer/ItemListcontainer'
 import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer';
 import ItemDetailContainer from './components/ItemDetail/ItemDetailContainer';
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ComponenteError from './components/ComponenteError/ComponenteError';
 
 
@@ -14,26 +14,26 @@ function App() {
   return (
 
     <>
-    <BrowserRouter>
-    <NavBar />
+      <BrowserRouter>
+        <NavBar />
 
-    <Routes>
+        <Routes>
 
-    <Route path='/' element={<ItemListcontainer/>}/>
+          <Route path='/' element={<ItemListcontainer />} />
 
-     <Route path='/category/:categoryId' element={<ItemListcontainer/>}/>
+          <Route path='/category/:categoryId' element={<ItemListcontainer />} />
 
-     <Route path= '/detalle/:id'element={<ItemDetailContainer/>}/>
+          <Route path='/detalle/:id' element={<ItemDetailContainer />} />
 
-     <Route path='*' element={<ComponenteError/>}/>
+          <Route path='*' element={<ComponenteError />} />
 
 
-    </Routes>
-     
-    
-      
-      
-      <Footer />
+        </Routes>
+
+
+
+
+        <Footer />
       </BrowserRouter>
 
     </>

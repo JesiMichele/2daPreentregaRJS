@@ -23,7 +23,7 @@ const ItemListcontainer = () => {
 
 
             if (categoryId) {
-               const filtrarProductos = data.filter((p) =>p.category== categoryId)
+               const filtrarProductos = data.filter((p) => p.category == categoryId)
                setProductos(filtrarProductos)
             } else {
                setProductos(data)
@@ -44,7 +44,7 @@ const ItemListcontainer = () => {
 
    return (
       <div>
-         
+
 
          {productos.length == 0
             ?
