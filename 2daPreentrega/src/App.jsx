@@ -7,6 +7,10 @@ import Footer from './components/Footer/Footer';
 import ItemDetailContainer from './components/ItemDetail/ItemDetailContainer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ComponenteError from './components/ComponenteError/ComponenteError';
+import Cart from './components/Cart/Cart';
+import CartProvider from './Context/CartContext';
+
+
 
 
 function App() {
@@ -15,25 +19,30 @@ function App() {
 
     <>
       <BrowserRouter>
-        <NavBar />
 
-        <Routes>
+        <CartProvider>
 
-          <Route path='/' element={<ItemListcontainer />} />
+          <NavBar />
 
-          <Route path='/category/:categoryId' element={<ItemListcontainer />} />
+          <Routes>
 
-          <Route path='/detalle/:id' element={<ItemDetailContainer />} />
+            <Route path='/' element={<ItemListcontainer />} />
 
-          <Route path='*' element={<ComponenteError />} />
+            <Route path='/category/:categoryId' element={<ItemListcontainer />} />
+
+            <Route path='/detalle/:id' element={<ItemDetailContainer />} />
+            <Route path='/Cart' element={<Cart />} />
+
+            <Route path='*' element={<ComponenteError />} />
 
 
-        </Routes>
+          </Routes>
+
+          <Footer />
 
 
+        </CartProvider>
 
-
-        <Footer />
       </BrowserRouter>
 
     </>
